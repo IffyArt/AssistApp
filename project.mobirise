@@ -30,7 +30,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "AssistApp",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
