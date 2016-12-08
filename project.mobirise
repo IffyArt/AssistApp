@@ -12,7 +12,7 @@
         "successColor": "#2ecc71",
         "infoColor": "#3498db",
         "warningColor": "#f1c40f",
-        "dangerColor": "#2158a6",
+        "dangerColor": "#535353",
         "titleFont": "Arvo",
         "subtitleFont": "Montserrat",
         "textFont": "Open Sans",
@@ -70,13 +70,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#217dbb"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2791d9!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#3498db"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -99,12 +99,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#3498db",
+            "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -114,7 +114,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/t-icon-128x128-69-128x128-60.png",
+              "src": "@PROJECT_PATH@/assets/images/t-icon-128x128-61.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -127,8 +127,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AssistApp</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://fb.me/assistappfans\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://fb.me/assistappfans\">FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://play.google.com/apps/testing/tw.lambda.assist\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AssistApp</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://fb.me/assistappfans\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"http://fb.me/assistappfans\">FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://play.google.com/apps/testing/tw.lambda.assist\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -369,6 +369,9 @@
           "_styles": {
             ".mbr-section-text": {
               "color": "#fff"
+            },
+            "P": {
+              "color": "#34495e"
             }
           },
           "alias": "colorm/components",
