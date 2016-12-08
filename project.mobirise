@@ -1,0 +1,397 @@
+{
+  "settings": {
+    "name": "AssistApp",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#2980b9",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#2158a6",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.9.0",
+    "uniqCompNum": 14,
+    "versionPublish": "3.10",
+    "publishType": "github"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#217dbb"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2791d9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#3498db"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2980b9!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#3498db",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/t-icon-128x128-69-128x128-60.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AssistApp</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://fb.me/assistappfans\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://fb.me/assistappfans\">FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://play.google.com/apps/testing/tw.lambda.assist\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-text": {
+              "color": "#eeeeee",
+              "font-size": "18px",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1",
+          "_params": {
+            "buttonAlign": "center",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/shutterstock-458347366-2000x1124-8.jpg",
+            "bgColor": "#2c3e50",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#2c3e50",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "ASSIST APP",
+          "text": "找不到人一起買買一送一的咖啡<br>想問看看別人午餐吃什麼<br>甚至是上廁所沒有帶衛生紙<br>您是否想過和附近的人有特殊的交集<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-text btn-white\" href=\"https://play.google.com/apps/testing/tw.lambda.assist\" data-toolbar=\"-mbrBtnMove\">BETA 測試下載</a> <a data-app-btn=\"true\" class=\"btn btn-text btn-white\" href=\"https://www.facebook.com/assistappfans/\" data-toolbar=\"-mbrBtnMove\">FB 粉絲專頁</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header10",
+          "_anchor": "header10-2",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/t-screenshot-20161119-114104-2000x2550-96.png",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#34495e",
+            "showTitle": true,
+            "showText": false,
+            "showVideo": true,
+            "showButtons": true,
+            "showArrow": true,
+            "VideoUrl": "https://www.youtube.com/watch?v=mds07giiFYo"
+          },
+          "title": "INTRO WITH VIDEO<br>",
+          "text": "Full-screen intro with background image and video popup. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/play-button.svg"
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "text2": "<label class=\"startPreset\" for=\"modal\">Watch Video</label>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/channel/UCp0MsbuY7xaatIFbEFXw_sw\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "font-size": "18px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "32px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-7",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgColor": "#34495e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#e74c3c",
+            "showText": true,
+            "showTitle": true,
+            "showButtons": true,
+            "showImage": true
+          },
+          "text": "核心思想",
+          "title": "時間、空間，定義出時空，時空乘載著你我，這世代人們交接透過了網路，穿越了空間，但是卻沒有人發現，周遭其實有更多值得我們探索與交集的人事物，ASSISTAPP 因此誕生。",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"http://fb.me/assistappfans\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FB 粉絲專頁</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1425315283416-2acc50323ee6-1400x933-80-1400x501-48.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "color": "#dddddd"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgColor": "#34495e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": false
+          },
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "title": "留下您的問題或意見",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "iffyart1234@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@THEME_PATH@/components/_images/form/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">留言</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2980b9",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright &nbsp;2016. IffyArt All rights reserved. "
+        }
+      ]
+    }
+  }
+}
