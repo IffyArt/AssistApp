@@ -46,13 +46,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#333333"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#333333"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#333333"
             },
             ".link": {
               "font-size": "0.875rem"
@@ -67,7 +67,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#ffffff"
+              "color": "#333333"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#e6e6e6"
@@ -79,7 +79,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#333333",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -102,7 +102,7 @@
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#333333",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
